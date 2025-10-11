@@ -1,4 +1,4 @@
-﻿// ZADANIE 1
+﻿// ZADANIE 0
 
 // const int requiredAge = 14;
 // const int simRequiredAge = 18;
@@ -33,14 +33,24 @@
 // }
 
 
+// ZADANIE 1
+
+// var input = "";
+//
+// while (input != "admin123")
+// {
+//     Console.WriteLine("Podaj hasło: ");
+//     input = Console.ReadLine();
+// }
+//
+// Console.WriteLine("Zalogowano pomyślnie!");
+
 // ZADANIE 2
 
-var input = "";
-
-while (input != "admin123")
-{
-    Console.WriteLine("Podaj hasło: ");
-    input = Console.ReadLine();
-}
-
-Console.WriteLine("Zalogowano pomyślnie!");
+// int number = 0;
+// while (number <= 0)
+// {
+//     Console.WriteLine("Podaj liczbę większą od zera");
+//     var input = Console.ReadLine();
+//     Int32.TryParse(input, out number);
+// }
