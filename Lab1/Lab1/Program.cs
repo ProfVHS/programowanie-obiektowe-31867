@@ -1,3 +1,31 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿const int requiredAge = 14;
+const int simRequiredAge = 18;
+const string accessDenied = "Musisz mieć 18 lat.";
+const string accessAllowed = "Witamy w naszym sklepie";
+const string simRestrictionMessage = "Witamy w naszym sklepie, musisz mieć 18 lat aby zakupić kartę sim";
 
-Console.WriteLine("Hello, World!");
+Console.WriteLine("Podaj swój wiek: ");
+
+string? input = Console.ReadLine();
+
+bool success = int.TryParse(input, out var age);
+
+if (!success)
+{
+    Console.WriteLine("Podaj poprawną wartość!");
+}
+else
+{
+    if (age >= simRequiredAge)
+    {
+        Console.WriteLine(accessAllowed);
+    }
+    else if (age >= requiredAge)
+    {
+        Console.WriteLine(simRestrictionMessage);
+    }
+    else
+    {
+        Console.WriteLine(accessDenied);
+    }
+}
