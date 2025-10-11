@@ -54,3 +54,11 @@
 //     var input = Console.ReadLine();
 //     Int32.TryParse(input, out number);
 // }
+
+// ZADANIE 3
+
+// string[] cities = { "Warszawa", "Berlin", "Katowice", "Krakow", "Poznań" };
+// foreach (string city in cities)
+// {
+//     Console.WriteLine(city);
+// }
