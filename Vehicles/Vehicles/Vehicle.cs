@@ -1,8 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿namespace Lab3;
 
-namespace Lab3;
-
-[Keyless]
 public abstract class Vehicle
 {
     public double EngineCapacity { get; protected set; }

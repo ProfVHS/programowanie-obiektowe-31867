@@ -1,8 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿namespace Lab3;
 
-namespace Lab3;
-
-[Keyless]
 public class Car : Vehicle
 {
     public Car(double engineCapacity, string model, int year) : base(engineCapacity, model, year)

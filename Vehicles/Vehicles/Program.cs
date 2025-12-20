@@ -7,13 +7,13 @@ bool run = true;
 do
 {
     Console.WriteLine("CAR SHOP");
-    Console.WriteLine("[1] Show all, [2] Search by year, " +
+    Console.WriteLine("[1] Show all, [2] Search by year, " + 
                       "[3] Search by model, [4] Search by engine capacity, " +
                       "[5] Add new vehicle, [0] Exit");
     var input = Console.ReadKey().KeyChar;
 
     Console.WriteLine("");
-
+    
     switch (input)
     {
         case '1':
@@ -62,7 +62,7 @@ void SearchByYear()
         SearchByYear();
         return;
     }
-
+    
     var vehicles = db.List.Where(x => x.Year == year);
 
     if (!vehicles.Any())
@@ -89,8 +89,8 @@ void SearchByModel()
         SearchByModel();
         return;
     }
-
-    var vehicles = db.List.Where(x => x.Model.ToLower() == model.ToLower());
+    
+    var vehicles = db.List.Where(x => x.Model.ToLower() == model.ToLower() );
 
     if (!vehicles.Any())
     {
@@ -110,14 +110,14 @@ void SearchByEngineCapacity()
 {
     Console.WriteLine("Enter engine capacity: ");
     var success = double.TryParse(Console.ReadLine(), out double engineCapacity);
-
+    
     if (!success)
     {
         Console.WriteLine("Invalid engine capacity!");
         return;
     }
-
-    var vehicles = db.List.Where(x => x.EngineCapacity == engineCapacity);
+    
+    var vehicles = db.List.Where(x => x.EngineCapacity == engineCapacity );
 
     if (!vehicles.Any())
     {
@@ -138,16 +138,16 @@ void AddNewVehicle()
     Console.WriteLine("B for bike, C for car: ");
     var input = Console.ReadKey().KeyChar;
     Console.WriteLine("");
-
+    
     if (input.ToString().ToLower() is not ("b" or "c"))
     {
         Console.WriteLine("Invalid vehicle type!");
         return;
     }
-
+    
     Console.WriteLine("Enter engine capacity: ");
     var success = double.TryParse(Console.ReadLine(), out double engineCapacity);
-
+    
     if (!success)
     {
         Console.WriteLine("Invalid engine capacity!");
@@ -162,24 +162,27 @@ void AddNewVehicle()
         Console.WriteLine("Invalid model!");
         return;
     }
-
+    
     Console.WriteLine("Enter year: ");
     success = Int32.TryParse(Console.ReadLine(), out int year);
-
+    
     if (!success)
     {
         Console.WriteLine("Invalid year!");
         return;
     }
+
+    Vehicle v;
     
     if (input.ToString().ToLower() == "c")
     {
-        db.Cars.Add(new Car(engineCapacity, model, year));
+        v = new Car(engineCapacity, model, year);
     }
     else
     {
-        db.Bikes.Add(new Bike(engineCapacity, model, year));
+        v = new Bike(engineCapacity, model, year);
     }
-
+    
+    db.List.Add(v);
     db.SaveChanges();
 }
