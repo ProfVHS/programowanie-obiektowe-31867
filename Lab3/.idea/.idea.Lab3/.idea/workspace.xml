@@ -8,29 +8,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a917b1c-2320-4eb1-a3a6-078fba1dd2fb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Lab3/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Lab3/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/Database/Vehicles.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/global.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Vehicles/.idea/.idea.Vehicles/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Vehicles/.idea/.idea.Vehicles/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Vehicles/.idea/.idea.Vehicles/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Vehicles/Vehicles.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Vehicles/Vehicles/Bike.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Vehicles/Vehicles/Car.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Vehicles/Vehicles/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Vehicles/Vehicles/Vehicle.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Vehicles/Vehicles/Vehicles.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Vehicles/global.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Lab3/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Lab3/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab3.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Lab3.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab3/Bike.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab3/Bike.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab3/Car.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab3/Car.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab3/Database.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab3/Lab3.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Lab3/Lab3.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab3/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab3/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab3/Vehicle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab3/Vehicle.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cinema/Cinema/Components/Database/movies.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cinema/Cinema/Components/Database/rooms.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cinema/Cinema/Components/Database/seances.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cinema/Cinema/Components/Database/seats.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cinema/Cinema/Components/Models/Movie.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cinema/Cinema/Components/Models/Room.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cinema/Cinema/Components/Models/Seance.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cinema/Cinema/Components/Models/Seat.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projekt/Projekt/Movie.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projekt/Projekt/Room.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projekt/Projekt/Seance.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projekt/Projekt/Seat.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projekt/Projekt/seances.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Lab3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lab3/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +43,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/ProfVHS/programowanie-obiektowe-31867.git&quot;,
-    &quot;accountId&quot;: &quot;9f99ef28-667a-4769-a8d5-0421adf0f22e&quot;
+    &quot;accountId&quot;: &quot;55ef4bc9-796d-4f36-bcdb-ed9dc251b8e2&quot;
   }
 }</component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
@@ -70,6 +61,7 @@
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -85,10 +77,8 @@
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="PASS_PARENT_ENVS" value="1" />
-      <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="ENV_FILE_PATHS" value="" />
       <option name="REDIRECT_INPUT_PATH" value="" />
-      <option name="PTY_MODE" value="Auto" />
       <option name="MIXED_MODE_DEBUG" value="0" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
@@ -112,6 +102,8 @@
       <option name="presentableId" value="Default" />
       <updated>1766244399438</updated>
       <workItem from="1766244400505" duration="1579000" />
+      <workItem from="1769538370142" duration="691000" />
+      <workItem from="1769706480863" duration="853000" />
     </task>
     <servers />
   </component>
