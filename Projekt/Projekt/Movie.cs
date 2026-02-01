@@ -1,9 +1,12 @@
-﻿namespace Projekt;
+﻿using System.Text.Json.Serialization;
+
+namespace Projekt;
 
 public class Movie
 {
-    public string Title { get; }
-    public int Duration { get; }
+    public string Title { get; set; }
+    [JsonInclude]
+    private int Duration { get; set; }
 
     public Movie(string title, int duration)
     {
@@ -16,5 +19,10 @@ public class Movie
         int hours = Duration / 60;
         int minutes = Duration - (hours * 60);
         return $"{hours}h {minutes}min";
+    }
+
+    public DateTime getEndDateTime(DateTime startDate)
+    {
+        return startDate.AddMinutes(Duration);
     }
 }

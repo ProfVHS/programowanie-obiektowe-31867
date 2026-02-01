@@ -8,20 +8,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a917b1c-2320-4eb1-a3a6-078fba1dd2fb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Cinema/Cinema/Components/Database/movies.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cinema/Cinema/Components/Database/rooms.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cinema/Cinema/Components/Database/seances.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cinema/Cinema/Components/Database/seats.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cinema/Cinema/Components/Models/Movie.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cinema/Cinema/Components/Models/Room.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cinema/Cinema/Components/Models/Seance.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cinema/Cinema/Components/Models/Seat.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Projekt/Projekt/Movie.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Projekt/Projekt/Room.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Projekt/Projekt/Seance.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Projekt/Projekt/Seat.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Projekt/Projekt/seances.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Lab3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lab3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projekt/Projekt/Movie.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Projekt/Projekt/Movie.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projekt/Projekt/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Projekt/Projekt/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projekt/Projekt/Show.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Projekt/Projekt/Show.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +36,10 @@
     &quot;accountId&quot;: &quot;55ef4bc9-796d-4f36-bcdb-ed9dc251b8e2&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/rubaj/RiderProjects/repo/programowanie-obiektowe-31867/Lab3/Lab3/Vehicle.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/rubaj/RiderProjects/repo/programowanie-obiektowe-31867/Projekt/Projekt/Movie.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -104,6 +98,7 @@
       <workItem from="1766244400505" duration="1579000" />
       <workItem from="1769538370142" duration="691000" />
       <workItem from="1769706480863" duration="853000" />
+      <workItem from="1769963621592" duration="603000" />
     </task>
     <servers />
   </component>

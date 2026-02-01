@@ -14,7 +14,7 @@ public class Show
         Movie = movie;
         Room = room;
         StartAt = startAt;
-        EndAt = StartAt.AddMinutes(movie.Duration);
+        EndAt = movie.getEndDateTime(startAt);
 
         for (int i = 1; i <= Room.RowsNumber; i++)
         {

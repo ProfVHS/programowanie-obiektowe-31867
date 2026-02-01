@@ -178,7 +178,7 @@ void CreateShow()
     Console.WriteLine("Enter Start Date (YYYY-MM-DD): ");
     var stringDate = Console.ReadLine();
 
-    Console.WriteLine("Enter Start Time (HH-MM-SS): ");
+    Console.WriteLine("Enter Start Time (HH:MM:SS): ");
     var stringTime = Console.ReadLine();
 
     var startDate = DateTime.Parse($"{stringDate}T{stringTime}");
