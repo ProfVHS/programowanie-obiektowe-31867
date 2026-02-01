@@ -1,5 +1,6 @@
 ﻿using System.Text.Json;
 using Projekt;
+using System.Linq;
 
 var showsPath = Path.Combine(Directory.GetCurrentDirectory(), "shows.json");
 var showsJson = File.ReadAllText(showsPath);
@@ -387,7 +388,7 @@ void DeleteMovie()
     }
 
     var selectedMovie = movies[movieId - 1];
-    var showsToDelete = shows.FindAll(show => show.Movie == selectedMovie);
+    var showsToDelete = shows.Where(show => show.Movie == selectedMovie).ToList();
 
     if (showsToDelete.Count > 0)
     {
@@ -404,7 +405,7 @@ void DeleteMovie()
 
         if (con.ToLower() == "y")
         {
-            shows = shows.FindAll(show => show.Movie != selectedMovie);
+            shows = shows.Where(show => show.Movie != selectedMovie).ToList();
             SaveShowsJson();
         }
     }
@@ -456,7 +457,7 @@ void DeleteRoom()
 
     var selectedRoom = rooms[roomId - 1];
 
-    var showsToDelete = shows.FindAll(show => show.Room == selectedRoom);
+    var showsToDelete = shows.Where(show => show.Room == selectedRoom).ToList();
     if (showsToDelete.Count > 0)
     {
         Console.ForegroundColor = ConsoleColor.Red;
@@ -472,7 +473,7 @@ void DeleteRoom()
 
         if (con.ToLower() == "y")
         {
-            shows = shows.FindAll(show => show.Room != selectedRoom);
+            shows = shows.Where(show => show.Room != selectedRoom).ToList();
             SaveShowsJson();
         }
     }
